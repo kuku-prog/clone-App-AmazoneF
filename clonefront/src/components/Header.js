@@ -5,6 +5,8 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "../firebase";
+// import AddLocationIcon from "@mui/icons-material/AddLocation";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 function Header() {
 	const [{ basket, user }, dispatch] = useStateValue(); // hook that is letting us pull form data layer
@@ -23,7 +25,15 @@ function Header() {
 					src=" http://pngimg.com/uploads/amazon/amazon_PNG11.png"
 				/>
 			</Link>
-
+			<LocationOnIcon className="location" />
+			<div className="delivery">
+				<span>
+					<small>Delivery</small>
+				</span>
+				<span>
+					<small>location</small>
+				</span>
+			</div>
 			<div className="header__search">
 				<input className="hearder__searchInput" type="text" />
 				<SearchIcon className="header__searchIcon" />

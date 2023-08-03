@@ -1,8 +1,9 @@
 // Import the functions you need from the SDKs you need
 // CheckOut 2:33:10 from video
 
-import firebase, { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+
 // import firebase from "firebase/compat/app";
 // import "firebase/compat/auth";
 // import "firebase/compat/firestore";

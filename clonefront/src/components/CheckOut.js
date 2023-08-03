@@ -27,6 +27,9 @@ function CheckOut() {
 						rating={item.rating}
 					/>
 				))}
+				{/* if (basket.map((item) === checkOutProuct.map(item))) {
+					
+				 } */}
 			</div>
 			<div className="checkout__right">
 				<Subtotal />
