@@ -3,7 +3,7 @@ import "./CheckOutProduct.css";
 import { useStateValue } from "./StateProvider";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
-function CheckOutProduct({ id, image, title, price, rating, hideButton }) {
+function CheckOutProduct({ id, image, title, price, rating }) {
 	const [{ basket }, dispatch] = useStateValue(); // to dispatch to data layer(push)
 	const removeFromBasket = () => {
 		dispatch({
@@ -30,11 +30,7 @@ function CheckOutProduct({ id, image, title, price, rating, hideButton }) {
 							</p>
 						))}
 				</div>
-				{/* <button onClick={removeFromBasket}>Remove from Basket</button> */}
-				{!hideButton && (
-					<button onClick={removeFromBasket}>Remove from Basket</button>
-				)}
-				{""}
+				<button onClick={removeFromBasket}>Remove from Basket</button>
 			</div>
 		</div>
 	);
