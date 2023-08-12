@@ -42,3 +42,7 @@
 	border-color: #a88737 #9c7e31 #846a29;
 	color: #111;
 }
+.paymet__details form div button:hover {
+	transform: scale(1.05);
+	background: #dca929;
+}

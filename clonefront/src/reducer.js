@@ -2,6 +2,7 @@ export const initialState = {
 	basket: [],
 	user: null,
 };
+// reducer: A function that specifies how the state should change in response to different actions. It follows the pattern of a Redux reducer.
 
 //reducer is the listener
 //state here is the state of the App

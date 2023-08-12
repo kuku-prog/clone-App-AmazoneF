@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
+// import StarBorderIcon from "@mui/icons-material/StarBorder";
+import StarRateIcon from "@mui/icons-material/StarRate";
 
 function Product({ title, id, image, price, rating }) {
 	console.log(id);
@@ -34,7 +35,7 @@ function Product({ title, id, image, price, rating }) {
 						.fill() // fills the amount of number of items
 						.map(() => (
 							<p>
-								<StarBorderIcon />
+								<StarRateIcon />
 							</p>
 						))}
 				</div>

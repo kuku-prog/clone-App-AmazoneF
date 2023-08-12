@@ -1,9 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
-// import StarBorderIcon from "@mui/icons-material/StarBorder";
-// import { colors } from "@mui/material";
-// import { yellow } from "@mui/material/colors";
 
 function Home() {
 	return (
@@ -17,20 +14,19 @@ function Home() {
 
 				<div className="home__row">
 					<Product
-						id="1111"
+						id={1111}
 						title="MAXTOP Laptop Backpack with USB Charging Port"
 						price={25.77}
 						rating={5}
 						image="https://m.media-amazon.com/images/I/410eaSTCqnL._MCnd_AC_.jpg"
-						// StarBorderIcon="5"
 					/>
 
 					<Product
-						id="2222"
+						id={2222}
 						title="Double Diamond 3.4 Eau De Perfume Spray Women"
 						image="https://m.media-amazon.com/images/I/41aT22Wap9L._SX569_.jpg"
 						price={9}
-						rating={4}
+						rating={2}
 					/>
 
 					<Product
@@ -44,7 +40,7 @@ function Home() {
 						id={4444}
 						title="Amazon Basics Vitamin D3 2000 IU Gummies, Orange, Lemon & Strawberry"
 						price={10.97}
-						rating={5}
+						rating={3}
 						image="	https://m.media-amazon.com/images/I/51sX+0vlXbL._AC_SY240_.jpg"
 						// StarBorderIcon="5"
 					/>

@@ -27,6 +27,8 @@ function Orders() {
 		}
 	}, [user]);
 
+	console.log({ orders });
+
 	return (
 		<div className="order">
 			<h1>Your Orders</h1>

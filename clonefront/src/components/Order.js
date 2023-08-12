@@ -38,7 +38,7 @@ function Order({ order }) {
 
 export default Order;
 
-// ********************all new bactch**************
+// ********************all new bactch from you know where contained in here**************
 
 // <div className="order">
 // 	<h2>Order</h2>
